@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Descripcion -->
+    <meta
+      name="description"
+      content="La Tranquera, el mejor lugar para comer y compartir con amigos o familia, deliciosas recetas caseras y con ingredientes de primer nivel. ¿Que esperas para venir?"
+    />
+    <!-- Palabras Clave -->
+    <meta
+      name="keywords"
+      content="desayunos, almuerzos, cena, delivery, la tranquera, recetas caseras, ofertas especiales, promociones, pedi tu receta favorita, vinos, pedidos a domicilio"
+    />
+    <!-- Librerias -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>La Tranquera Restaurante</title>
+  </head>
+  <body>
+    <section class="header">
+      <a href="#" class="logo"
+        ><i class="fas fa-utensils"></i> La Tranquera.
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">inicio</a>
+        <a href="#about">nosotros</a>
+        <a href="#food">top platos</a>
+        <a href="#gallery">galeria</a>
+        <a href="#menu">menu</a>
+        <a href="#order">pedido</a>
+        <a href="#blogs">opiniones</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <section id="home" class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Vení y disfruta los</span>
+              <h3>Mejores platos</h3>
+              <a href="#" class="btn">explorar</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Desgustá</span>
+              <h3>Deliciosas recetas</h3>
+              <a href="#" class="btn">explorar</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Compartí el mejor</span>
+              <h3>tiempo con amigos</h3>
+              <a href="#" class="btn">explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/about-img.png" alt="foto_dasayuno" />
+      </div>
+      <div class="content">
+        <h3 class="title">bienvenido a nuestro restaurante</h3>
+        <p>
+          La Tranquera restaurante nace en el año 2015 con el propósito de hacer
+          platos diferentes. Nuestros pilares se mantienen inalterables a través
+          del tiempo y hacen que cada vez más clientes nos conozcan y elijan.
+          Nuestra calidad (innegociable), nuestro toque gourmet, casero y de
+          elaboración artesanal marcaron un nuevo concepto a la hora de degustar
+          recetas. A diario elaboramos una cantidad limitada de platos para que
+          nuestros clientes se sientan únicos. Trabajamos con productos frescos,
+          naturales y de estación, fusionando sabores, aromas y combinaciones
+          que marcan tendencia.
+        </p>
+        <a href="#" class="btn">seguir leyendo</a>
+        <div class="icons-container">
+          <div class="icons">
+            <img src="images/about-icon-1.png" alt="icono_comida" />
+            <h3>comida de calidad</h3>
+          </div>
+          <div class="icons">
+            <img src="images/about-icon-2.png" alt="icono_bebidas" />
+            <h3>los mejores tragos</h3>
+          </div>
+          <div class="icons">
+            <img src="images/about-icon-3.png" alt="icono_cheff" />
+            <h3>excelentes cocineros</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="food" id="food">
+      <div class="heading">
+        <span>platos favoritos</span>
+        <h3>algunas de nuestras recetas</h3>
+      </div>
+
+      <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="foto_mariscos" />
+            <h3>mariscos a la oliva</h3>
+            <div class="price">$449.99</div>
+          </div>
+          <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="foto_vegetales" />
+            <h3>vegetales gratinados</h3>
+            <div class="price">$249.50</div>
+          </div>
+          <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="foto_pollo" />
+            <h3>pollo con salsa roja</h3>
+            <div class="price">$350.00</div>
+          </div>
+          <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="foto_salmon" />
+            <h3>entrada de salmon</h3>
+            <div class="price">$599.99</div>
+          </div>
+          <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="foto_carne" />
+            <h3>carne rostisada con papines</h3>
+            <div class="price">$549.99</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="food-preview-container">
+      <div id="close-preview" class="fas fa-times"></div>
+      <div class="food-preview active" data-target="food-1">
+        <img src="images/food-img-1.png" alt="foto_mariscos" />
+        <h3>mariscos a la oliva</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>deliciosos mariscos frescos, preparados con aceite de oliva.</p>
+        <div class="price">$449.99</div>
+        <a href="#" class="btn">pedir</a>
+      </div>
+      <div class="food-preview" data-target="food-2">
+        <img src="images/food-img-2.png" alt="foto_vegetales" />
+        <h3>vegetales gratinados</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          vegetales de la mejor calidad gratinados con una capa fina de oliva y
+          romero.
+        </p>
+        <div class="price">$249.50</div>
+        <a href="#" class="btn">pedir</a>
+      </div>
+      <div class="food-preview" data-target="food-3">
+        <img src="images/food-img-3.png" alt="foto_pollo" />
+        <h3>pollo con salsa roja</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          el mejor pollo rostisado, con una deliciosa salsa de tomates y
+          albahaca.
+        </p>
+        <div class="price">$350.00</div>
+        <a href="#" class="btn">pedir</a>
+      </div>
+      <div class="food-preview" data-target="food-4">
+        <img src="images/food-img-4.png" alt="foto_salmon" />
+        <h3>entrada de salmon</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          salmon finamente cortado, acompañado de una capa de deliciosos
+          vegetales.
+        </p>
+        <div class="price">$599.99</div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+      <div class="food-preview" data-target="food-5">
+        <img src="images/food-img-5.png" alt="foto_carne" />
+        <h3>carne rostisada con papines</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          carne de res cortada y horneada, sobre una capa de vegetales,
+          acompañada de papines gratinados.
+        </p>
+        <div class="price">$549.99</div>
+        <a href="#" class="btn">pedir</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="heading">
+        <span>nuestra galería</span>
+        <h3>algunos de nuestros platos</h3>
+      </div>
+
+      <div class="gallery-container">
+        <a href="images/food-galler-img-1.jpg" class="box">
+          <img src="images/food-galler-img-1.jpg" alt="foto_pollo" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="images/food-galler-img-2.jpg" class="box">
+          <img src="images/food-galler-img-2.jpg" alt="foto_camarones" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="images/food-galler-img-3.jpg" class="box">
+          <img src="images/food-galler-img-3.jpg" alt="foto_tostados" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="images/food-galler-img-4.jpg" class="box">
+          <img src="images/food-galler-img-4.jpg" alt="foto_pizza" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="images/food-galler-img-5.jpg" class="box">
+          <img src="images/food-galler-img-5.jpg" alt="foto_pollo" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="images/food-galler-img-6.jpg" class="box">
+          <img src="images/food-galler-img-6.jpg" alt="foto_fajitas" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="heading">
+        <span>nuestros productos</span>
+        <h3>Las mejores recetas</h3>
+      </div>
+
+      <div class="swiper menu-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <h3 class="title">desayunos</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>café tostado</h3>
+                  <p>café tostado a elección mexico, colombia, brasil.</p>
+                </div>
+                <div class="price">$149.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>café con tostado</h3>
+                  <p>café tostado con un emparedado horneado</p>
+                </div>
+                <div class="price">$349.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>submarino</h3>
+                </div>
+                <div class="price">$149.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>café / submarino con medialunas</h3>
+                  <p>café tostado o submarino con dos medialunas horneadas</p>
+                </div>
+                <div class="price">$249.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>medialunas</h3>
+                  <p>2 medialunas horneadas</p>
+                </div>
+                <div class="price">$99.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>té a elección</h3>
+                  <p>
+                    Té caliente a elección, rosas, negro, earl-grey, naranja.
+                  </p>
+                </div>
+                <div class="price">$119.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <h3 class="title">almuerzos</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>berenjena rellena</h3>
+                  <p>berenjenas horneadas rellenas con verduras gratinadas</p>
+                </div>
+                <div class="price">$349.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>tallarín saltado</h3>
+                  <p>tallarines caseros salteados con vegetales</p>
+                </div>
+                <div class="price">$400.00</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>boloñesa de lentejas</h3>
+                  <p>salsa boloñesa de lentejas servida sobre pastas frescas</p>
+                </div>
+                <div class="price">$450.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>pollo mediterráneo</h3>
+                  <p>
+                    pollo horneado servido con tomates cherry, aceitunas negras
+                    y cebollas
+                  </p>
+                </div>
+                <div class="price">$549.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <h3 class="title">cenas</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>codorniz escabechada</h3>
+                  <p>
+                    codorniz hervida con laurel y servida con zarahorias y
+                    cebollas
+                  </p>
+                </div>
+                <div class="price">$649.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>rollos de lenguado</h3>
+                  <p>
+                    rollos de lenguado rellenos de langostino con salsa de oliva
+                  </p>
+                </div>
+                <div class="price">$600.00</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>raviolis rellenos</h3>
+                  <p>raviolis de ricota con núez con salsa blanca</p>
+                </div>
+                <div class="price">$449.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>sopa de pescado</h3>
+                  <p>sopa de merluza con calabazas</p>
+                </div>
+                <div class="price">$420.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>jamón asado</h3>
+                  <p>jamón asado con laurel y vegetales</p>
+                </div>
+                <div class="price">$719.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <h3 class="title">bebidas</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>vinos seleccionados</h3>
+                  <p>
+                    los mejores vinos seleccionados para degustar malbec,
+                    caberne, rose.
+                  </p>
+                </div>
+                <div class="price">$799.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>champagne</h3>
+                  <p>champagne seleccionado de excelente calidad.</p>
+                </div>
+                <div class="price">$1149.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>cocteles</h3>
+                  <p>
+                    elegí el cóctel que más te guste, mimosa, bloody mary, dry
+                    martini.
+                  </p>
+                </div>
+                <div class="price">$549.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>sin alcohol</h3>
+                  <p>
+                    agua mineral sin gas, agua mineral gasificada, gaseosas
+                    varias.
+                  </p>
+                </div>
+                <div class="price">$229.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <h3 class="title">postres</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>creme brulee</h3>
+                  <p>creme brulee de vainilla y compota de frutas</p>
+                </div>
+                <div class="price">$449.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Torta húmeda</h3>
+                  <p>Torta húmeda de chocolate y zanahorias en almíbar</p>
+                </div>
+                <div class="price">$549.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>rolls</h3>
+                  <p>rolls de masa philo y manzana</p>
+                </div>
+                <div class="price">$339.99</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>napoleón</h3>
+                  <p>napoleón de masa philo, peras y mascarpone</p>
+                </div>
+                <div class="price">$539.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="order" class="order">
+      <div class="heading">
+        <span>hace tu pedido</span>
+        <h3>envio a domicilio</h3>
+      </div>
+
+      <form action="">
+        <div class="box-container">
+          <div class="box">
+            <div class="inputBox">
+              <span>Nombre</span>
+              <input
+                type="text"
+                name="name"
+                placeholder="nombre cliente"
+                required
+              />
+            </div>
+            <div class="inputBox">
+              <span>plato seleccionado</span>
+              <input
+                type="text"
+                name="name_dish"
+                placeholder="nombre del plato"
+              />
+            </div>
+            <div class="inputBox">
+              <span>pedido completo</span>
+              <input type="text" name="order" placeholder="pedido" required />
+            </div>
+            <div class="inputBox">
+              <span>tu dirección</span>
+              <textarea
+                name="address"
+                placeholder="dirección"
+                id=""
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="box">
+            <div class="inputBox">
+              <span>numero</span>
+              <input
+                type="number"
+                name="number"
+                placeholder="numero de residencia"
+              />
+            </div>
+            <div class="inputBox">
+              <span>cantidad</span>
+              <input
+                type="text"
+                name="how_much"
+                placeholder="cuantas unidades"
+                required
+              />
+            </div>
+            <div class="inputBox">
+              <span>fecha</span>
+              <input type="datetime-local" name="date" required />
+            </div>
+            <div class="inputBox">
+              <span>nos encontramos en</span>
+              <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108722.54716874225!2d-60.77629775420465!3d-31.61797740172731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9adc40888e1%3A0xdcf7761e8d02804a!2sSanta%20Fe!5e0!3m2!1ses!2sar!4v1643916466270!5m2!1ses!2sar"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <input type="submit" value="pedir ahora" class="btn" />
+      </form>
+    </section>
+
+    <section class="blogs" id="blogs">
+      <div class="heading">
+        <span>sección de comentarios</span>
+        <h3>deja tus comentarios</h3>
+      </div>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-1.jpg" alt="foto_hamburguesa" />
+              <span>hamburguesa con bacon</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i> 12 Mayo 2020 </a>
+                <a href="#"><i class="fas fa-user"></i> administrador </a>
+              </div>
+              <a href="#" class="title">la mejor!</a>
+              <p>La mejor hamburguesa de la ciudad, es increible.</p>
+              <a href="#" class="btn">seguir leyendo</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-2.jpg" alt="foto_emparedado" />
+              <span>emparedado de jamon</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i> 12 Mayo 2020 </a>
+                <a href="#"><i class="fas fa-user"></i> administrador </a>
+              </div>
+              <a href="#" class="title">riquisimo!</a>
+              <p>
+                La combinacion de ingredientes hace de este el mejor emparedado.
+              </p>
+              <a href="#" class="btn">seguir leyendo</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-3.jpg" alt="foto_pollo" />
+              <span>pollo rostisado</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i> 12 Mayo 2020 </a>
+                <a href="#"><i class="fas fa-user"></i> administrador </a>
+              </div>
+              <a href="#" class="title">excelente plato!</a>
+              <p>
+                El pollo queda perfecto rostisado y se siente el gusto a la
+                oliva
+              </p>
+              <a href="#" class="btn">seguir leyendo</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-4.jpg" alt="foto_helado" />
+              <span>helado de crema</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i> 12 Mayo 2020 </a>
+                <a href="#"><i class="fas fa-user"></i> administrador </a>
+              </div>
+              <a href="#" class="title">postre delicioso</a>
+              <p>
+                Es el postre favorito de mi hijo y el mío, simplemente
+                delicioso.
+              </p>
+              <a href="#" class="btn">seguir leyendo</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-5.jpg" alt="foto_pizza" />
+              <span>pizza napolitana</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i> 12 Mayo 2020 </a>
+                <a href="#"><i class="fas fa-user"></i> administrador </a>
+              </div>
+              <a href="#" class="title">muy buena pizza</a>
+              <p>
+                Siempre que salimos con mis colegas la ordenamos, sin duda la
+                mejor pizza.
+              </p>
+              <a href="#" class="btn">seguir leyendo</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-6.jpg" alt="foto_café" />
+              <span>café tostado</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i> 12 Mayo 2020 </a>
+                <a href="#"><i class="fas fa-user"></i> administrados </a>
+              </div>
+              <a href="#" class="title">excelente café</a>
+              <p>
+                Es mi elección diaria para comenzar mi día, el mejor café de la
+                ciudad.
+              </p>
+              <a href="#" class="btn">seguir leyendo</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-clock"></i>
+          <h3>horario de atendión</h3>
+          <p>19:45pm a 01:00am</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>teléfono</h3>
+          <p>011-53246-34633</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>email</h3>
+          <p>pruebaemail@latranquera.com.ar</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-map"></i>
+          <h3>dirección</h3>
+          <p>Avenida prueba 1265</p>
+        </div>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fas fa-map-marker-alt"></a>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
